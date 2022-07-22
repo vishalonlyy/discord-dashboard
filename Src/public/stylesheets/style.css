@@ -1,0 +1,39 @@
+body{
+  background-color: #101113;
+}
+
+.bg-3 { 
+  background-color: #101113;
+  color: #101113;
+}
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #101113;
+}
+.navbar-nav  li a:hover {
+  color: white !important;
+}
+.active>a {
+color: white !important;;
+}
+
+
+.nav-images{
+  width: 8%;
+  
+  
+  border-radius: 50%;
+  border-width: 30px;
+  border: 5px solid;
+}
+

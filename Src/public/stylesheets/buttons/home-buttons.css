@@ -1,0 +1,36 @@
+.home-btn-invite{
+    background-color: aqua;
+    background: #5865f2;
+    width: auto;
+    border-radius: 25px;
+    border: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+
+}
+
+.home-btn-support{
+    background-color: aqua;
+    background: rgb(226, 231, 231);
+    width: auto;
+    border-radius: 25px;
+    border: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 600;
+
+}
+.a_a{
+    text-decoration: none;
+    width: auto;
+    cursor: pointer;
+    color: black;
+}
+.active>a {
+    color: white !important;;
+    }
