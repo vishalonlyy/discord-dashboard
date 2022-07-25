@@ -8,3 +8,6 @@
 
 <h1>https://discord.gg/wdUxp9Kvva</h1>
 
+
+<p> Team page demo a part of the website code </p> 
+<img src="demo.jpg">
