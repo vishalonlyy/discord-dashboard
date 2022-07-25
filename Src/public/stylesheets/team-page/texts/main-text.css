@@ -1,0 +1,27 @@
+.header-text-pg-team{
+    color: aquamarine;
+    font-size: x-large;
+    font-style: italic;
+}
+
+text-p{
+    color: rgb(40, 219, 219);
+    
+    font-style: italic;
+    border: solid blue ;
+    font-style: italic;
+    border-radius: 85px;
+    padding: 20px 40px 40px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Header-team-2{
+    color: aqua;
+    text-align: center;
+    font-style: italic;
+    border: 1px solid white;
+border-radius: 90px;}

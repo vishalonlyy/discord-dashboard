@@ -1,0 +1,165 @@
+.h1{
+  color: white;
+  border: solid 1px white;
+  border-radius: 75px;
+  align-items: center;
+  text-align: center;
+  background-color: #4ef1be;
+}
+
+.header-p{
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
+
+.images-team{
+  max-width: 40%;
+  min-width:30%;
+  border: rgb(226, 23, 23) 4px solid;
+  border-radius: 50%;
+  float: right;
+  margin-right: 0;
+  margin: 0px 0px 5px 0;
+}
+
+.text-bio{
+  
+  border: solid 3px #101113;
+  color: #4ef1be;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  border-radius: 75px;
+  font-size: medium;
+  font-style: italic;
+  padding: 20px 50px 90px;
+  background-color: black;
+}
+
+
+.team-imgs-right-{
+  justify-content: center;
+  float: right;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.team-imgs-right-::before{
+  content: '';
+  position: absolute;
+inset: -10px 140px;
+background: linear-gradient(315deg,#00ccff,#d400d4);
+animation: animate 4s linear infinite;
+}
+
+.team-imgs-right-:hover::before{
+  inset: -20px 0px;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.team-imgs-right-::after{
+  content: '';
+  position: absolute;
+  inset: 6px;
+  background: #101113;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+
+
+.team-pics{
+  position: absolute;
+  overflow: hidden;
+  inset: 30px;
+  border: 6px solid royalblue;
+  z-index: 3;
+  border-radius: 50%;
+}
+
+.team-pics img{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+/*Images in The left side*/
+
+.team-imgs-left-{
+  justify-content:center ;
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.team-imgs-left-::before{
+  content: '';
+  position: absolute;
+inset: -10px 140px;
+background: linear-gradient(315deg,#d400d4,#00ccff);
+animation: animate 4s linear infinite;
+}
+
+.team-imgs-left-:hover::before{
+  inset:-20px 0px;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.team-imgs-left-::after{
+  content: '';
+  position: absolute;
+  inset: 6px;
+  background: black;
+  border-radius: 50%;
+  z-index: 1;
+
+}
+
+
+.team-pics{
+  position: absolute;
+  overflow: hidden;
+  inset: 30px;
+  border: 6px solid royalblue;
+  z-index: 3;
+  border-radius: 50%;
+}
+
+.team-pics img{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
