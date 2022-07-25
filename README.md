@@ -1,7 +1,8 @@
 # Grufy-dash
 
 
-<h1>COPYRIGHT IF YOU TREMIVE TGHE TAGS WITHOUT JOINING OUR SUPPORT SERVER</h1> 
+<h1>COPYRIGHT IF YOU REMOVE TGHE TAGS WITHOUT JOINING OUR SUPPORT SERVER</h1> 
+<p> Dont forget to leave a star</p>
 
 [DISCORD(https://discord.gg/wdUxp9Kvva)
 
