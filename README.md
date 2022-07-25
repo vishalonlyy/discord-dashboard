@@ -10,4 +10,4 @@
 
 
 <p> Team page demo a part of the website code </p> 
-<img src="demo.jpg">
+<img src="demo.png">
